@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+body{
+    background-color: aquamarine;
+    text-align: center;
+    margin: 30px;
+}
+
+.card {
+    /* height: 500px; */
+    margin: auto;
+    background:#59CDE9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0A2A88, #59CDE9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0A2A88, #59CDE9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    max-height: 20%;
+    max-width: 30%;
+    border: 1px solid black;
+    box-shadow: 10px 5px 15px black;
+    border-radius: 20px;
+}
+.card nav{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+nav input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 40px;
+    text-align: center;
+}
+nav button img{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    text-align: center;
+
+}
+nav button {
+    height:40px;
+    width: 40px;
+    border-radius:50%;
+    text-align: center;
+}
+
+#weather img{
+    height: 120px;
+    width: 120px;
+}
+
+#extra{
+    margin: 40px;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    align-items: center;
+}
