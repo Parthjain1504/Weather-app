@@ -2,7 +2,7 @@
 
 A sleek, responsive weather application that provides real-time meteorological data for cities worldwide. Built to demonstrate proficiency in API integration, asynchronous JavaScript, and modern UI design.
 
-** [Live Demo](https://weather-iota-indol-30.vercel.app/)**
+ [Live Demo](https://weather-iota-indol-30.vercel.app/)
 
 ## Features
 
